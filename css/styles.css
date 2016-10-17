@@ -36,6 +36,9 @@ body {
   font-size: 16px;
   font-family: Helvetica,Arial,sans-serif;
 }
+article a{
+  position: relative;
+}
 ol, ul {
 	list-style: none;
 }
@@ -62,10 +65,7 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
-@font-face {
-  font-family: "HelveticaLTStd";
-  src: url(../font/HelveticaLTStd-UltraComp.otf) format("truetype");
-}
+
  /*  listing template */
 .item-title p{
   font-size: 26px;
@@ -772,7 +772,7 @@ box-shadow: 10px 6px 34px -14px rgba(0,0,0,0.42);
     left: 1px;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     text-transform: uppercase;
     color: #000;
 }
